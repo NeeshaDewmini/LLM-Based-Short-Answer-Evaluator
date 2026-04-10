@@ -1,12 +1,25 @@
-# LLM-Based Short Answer Evaluator
+# 🧠 LLM-Based Short Answer Evaluator
 
 A beginner-friendly AI-powered assessment tool built using **Python, Streamlit, and Groq API**.
 
 This application evaluates a student's answer using a Large Language Model (LLM) and provides structured feedback.
 
+🚀 **Live Demo:** 
+
+👉 https://llm-based-short-answer-evaluator-8wfqpnsjzkbgsgobkabut3.streamlit.app/
+
+## 📸 Demo
+
+### 🖥️ App Interface
+![UI](images/ui.jpg)
+
+### 📊 Evaluation Result
+![Result](images/result-01.jpg)
+![Result](images/result-02.jpg)
+
 ---
 
-## Features
+## 🚀 Features
 
 - Score answers out of 10
 - Add grading levels (Excellent, Good, Fair, Poor)
@@ -18,7 +31,7 @@ This application evaluates a student's answer using a Large Language Model (LLM)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
@@ -27,7 +40,7 @@ This application evaluates a student's answer using a Large Language Model (LLM)
 
 ---
 
-## Run Locally
+## ▶️ Run Locally
 
 ```bash
 pip install -r requirements.txt
@@ -36,15 +49,17 @@ streamlit run app.py
 
 ---
 
-## Environment Setup
+## 🔐 Environment Setup
 
-Create a .env file:
+Create a `.env` file:
 
+```env
 GROQ_API_KEY=your_api_key_here
+```
 
 ---
 
-## Learning Outcomes
+## 🎯 Learning Outcomes
 
 - Understanding of Large Language Models (LLMs)
 - Prompt engineering basics
@@ -53,17 +68,16 @@ GROQ_API_KEY=your_api_key_here
 
 ---
 
-## Future Improvements
+## 📌 Future Improvements
 
-- Support multiple questions
-- Integrate RAG pipeline
-- Deploy on cloud
+- Support multiple questions (quiz mode)
+- Integrate Retrieval-Augmented Generation (RAG)
+- Improve UI/UX with better visualization
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Janeesha Dewmini
-
+**Janeesha Dewmini** 
 
 ---
